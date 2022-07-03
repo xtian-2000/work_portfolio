@@ -1,13 +1,7 @@
 html, body{
+    font-family: 'Roboto', arial;
     font-size: 62.5%;
     margin:0;
-    font-family: 'Roboto', arial;
-}
-
-body {
-    background-color: #FFFFFF;
-    padding: 0;
-    font-family: 'Roboto', arial;
 }
 
 h1 {
@@ -26,70 +20,98 @@ p {
     font-size: 1.8rem;
 }
 
-/* Navigation */
+/*Navigation*/
 
 nav {
     align-items: center;
-    background-color: #E5E5E5;
-    box-shadow: 0 5px 20px rgba(0,0,0,.25);
+    background-color: #fff;
+    box-shadow: 5px 10px 18px #888888;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     padding: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
-nav a {
-    color: black;
+.nav-link {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-link a {
+    color: #000;
     font-size: 1.8rem;
-    font-weight: lighter;
-    opacity: .8;
     text-decoration: none;
-    margin-right: 10px;
+    -webkit-transition: color 1s;
+    transition: color 1s;
 }
 
-.nav-logo img {
-    width: 84px;
+.nav-link a:hover {
+    color: #ff8c00;
+}
+
+.nav-logo img{
     height: 50px;
-    margin-right: auto;
+    width: 100px;
 }
 
-/*
-.nav-categories a {
-    border-style: solid;
-    padding: 10px;
-}*/
-
-#web_dev {
-    color: #FF8C00;
+.nav-link select {
+    background-color: #fff;
+    border: none; 
+    font-size: 1.4rem;
 }
 
-#soft_eng {
-    color: #006400;
-}
-
-#mob_dev {
-    color: #7600A9;
-}
-
-/*Header content*/
-.header-content {
-    align-items: center;
-    background-color: #E5E5E5;
+/* Header */
+.header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 100px;
-    padding: 5%;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.header-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
 }
 
 .header-content h1 {
-    font-size: 8.5rem;
-    font-weight: lighter;
-    opacity: 0.9;
+    font-size: 7.2rem;
+    font-weight: 300;
 }
 
-.header-content span{
+.header-content p {
+    font-size: 6.0rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.header-content span {
     opacity: 0.7;
 }
+
+.header-logo {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    
+}
+
+/* About Me */
+
+.grid-container {
+    display: grid;
+    margin: 5% 2.5%;
+}
+ .about-header {
+    background-color: #0275d8;
+ }
+
+ .about-header h1 {
+    color: #fff;
+    margin-left: 10px;
+ }
+
+
+
+
