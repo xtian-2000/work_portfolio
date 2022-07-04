@@ -100,12 +100,15 @@ nav {
 /* About Me */
 
 .grid-container {
+    column-gap: 5px;
     display: grid;
+    grid-template-columns: auto auto auto;
     margin: 5% 2.5%;
-    border-color: #0275d8;
+    row-gap: 5px;
 }
  .about-header {
     background-color: #0275d8;
+    grid-column: 1 / span 3;
  }
 
  .about-header h1 {
@@ -114,14 +117,39 @@ nav {
  }
 
  .about-main {
-    margin-left: 10px;
+    border-color: #0275d8;
+    border-style: solid;
+    grid-column: 1 / span 2;
+    padding: 10px;
  }
- 
+
  .about-main h3 {
     font-weight: bold;
  }
 
+ .about-awards {
+    border-color: #0275d8;
+    border-style: solid;
+    padding: 10px;
+ }
 
+ .about-certificates {
+    background-color: #ADD8E6;
+    padding: 1px;
+ }
+
+ .about-certificates a {
+    text-decoration: none;
+ }
+
+ .about-certificates h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+ }
+
+ .about-certificates p {
+    font-size: 1.6rem;
+ }
 
 
 
