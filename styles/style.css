@@ -102,6 +102,7 @@ nav {
 .grid-container {
     display: grid;
     margin: 5% 2.5%;
+    border-color: #0275d8;
 }
  .about-header {
     background-color: #0275d8;
@@ -111,6 +112,16 @@ nav {
     color: #fff;
     margin-left: 10px;
  }
+
+ .about-main {
+    margin-left: 10px;
+ }
+ 
+ .about-main h3 {
+    font-weight: bold;
+ }
+
+
 
 
 
