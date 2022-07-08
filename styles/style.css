@@ -64,10 +64,10 @@ nav {
 
 /* Header */
 .header {
+    align-items: center;
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 15% 0;
 }
 
@@ -75,6 +75,7 @@ nav {
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 5%;
 }
 
@@ -94,9 +95,9 @@ nav {
 }
 
 .header-logo {
-    align-content: center;
     align-items: center;
     display: flex;
+    justify-content: center;
     gap: 1.5rem;
     
 }
@@ -110,6 +111,7 @@ nav {
     margin: 5% 2.5%;
     row-gap: 5px;
 }
+
  .about-header {
     background-color: #0275d8;
     grid-column: 1 / span 3;
@@ -124,6 +126,7 @@ nav {
     border-color: #0275d8;
     border-style: solid;
     grid-column: 1 / span 2;
+    grid-row: 2 / span 3;
     padding: 10px;
  }
 
@@ -137,24 +140,81 @@ nav {
     padding: 10px;
  }
 
- .about-certificates {
+ .about-awards-cert {
     background-color: #ADD8E6;
-    padding: 1px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
  }
 
- .about-certificates a {
+ .about-awards-cert a {
     text-decoration: none;
  }
 
- .about-certificates h4{
+ .about-awards-cert h4{
     font-size: 1.8rem;
     font-weight: bold;
  }
 
- .about-certificates p {
+ .about-awards-cert p {
     font-size: 1.6rem;
  }
 
+ .about-certificates {
+    border-color: #0275d8;
+    border-style: solid;
+    padding: 10px;
+ }
 
+ .about-cert {
+    background-color: #ADD8E6;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+ }
 
+ .about-cert a {
+    text-decoration: none;
+ }
 
+ .about-cert h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+ }
+
+ .about-cert p {
+    font-size: 1.6rem;
+ }
+
+/*Footer*/
+.contact {
+    background-color: #0C2D48;
+    display: flex;
+    gap: 3rem;
+}
+
+.contact-logo img {
+    height: 50px;
+    width: 100px;
+    margin: 20px 0 0 20px;
+}
+
+.contact-info h4{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.contact-info p {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.copyright {
+    align-items: center;
+    background-color: #0C2D48;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 1.6rem;
+}
