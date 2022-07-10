@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body{
     font-family: 'Roboto', arial;
     font-size: 62.5%;
@@ -68,15 +72,14 @@ nav {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin: 15% 0;
+    width: 100%;
+    margin-top: 10%; 
 }
 
 .header-content {
     align-items: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 5%;
 }
 
 .header-content h1 {
@@ -100,6 +103,11 @@ nav {
     justify-content: center;
     gap: 1.5rem;
     
+}
+
+.header-logo img {
+    width: 4.8rem;
+    height: 4.8rem;
 }
 
 /* About Me */
@@ -217,4 +225,28 @@ nav {
 .copyright p {
     color: #fff;
     font-size: 1.6rem;
+}
+
+@media screen and (max-width: 600px) {
+    div.header-content h1{
+      font-size: 3.2rem;
+    }
+
+    div.header-content p {
+        font-size: 2.4rem;
+    }
+
+    div.about-main {
+        border-color: #0275d8;
+        border-style: solid;
+        grid-column: 1 / span 3;
+    }
+
+    div.about-awards {
+        grid-column: 1 / span 3;
+    }
+
+    div.about-certificates {
+        grid-column: 1 / span 3;
+    }
 }
