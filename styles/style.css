@@ -80,6 +80,7 @@ nav {
     align-items: center;
     display: flex;
     justify-content: center;
+    
 }
 
 .header-content h1 {
@@ -228,8 +229,11 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+    div.header-content {
+        margin-top: 10%;
+    }
     div.header-content h1{
-      font-size: 3.2rem;
+        font-size: 3.2rem;
     }
 
     div.header-content p {
@@ -239,8 +243,8 @@ nav {
     /* header section */
 
     div.header-logo img {
-        width: 20px;
-        height: 20px;
+        width: 24px;
+        height: 24px;
     }
 
     /* about me section */
@@ -250,10 +254,12 @@ nav {
         grid-column: 1 / span 3;
     }
 
+    /* awards section */
     div.about-awards {
         grid-column: 1 / span 3;
     }
 
+    /* certificates section */
     div.about-certificates {
         grid-column: 1 / span 3;
     }
