@@ -62,8 +62,13 @@ nav {
 
 .nav-link select {
     background-color: #fff;
-    border: none; 
+    border: none;
     font-size: 1.4rem;
+}
+
+.nav-menu {
+    display: none;
+    margin-left: auto
 }
 
 /* Header */
@@ -73,14 +78,14 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 10%; 
+    margin-top: 10%;
 }
 
 .header-content {
     align-items: center;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .header-content h1 {
@@ -228,7 +233,33 @@ nav {
     font-size: 1.6rem;
 }
 
+/* For smaller screens */
 @media screen and (max-width: 600px) {
+    .nav-link a, select {display: none;}
+    /* .topnav a.icon {
+      float: right;
+      display: block;
+    } */
+}
+
+@media screen and (max-width: 600px) {
+
+    /* nav section */
+    /* div.nav-logo {
+        display: none;
+    } */
+
+    div.nav-menu {
+        display: block;
+    }
+
+    /* header section */
+
+    div.header-logo img {
+        width: 24px;
+        height: 24px;
+    }
+
     div.header-content {
         margin-top: 10%;
     }
@@ -238,13 +269,6 @@ nav {
 
     div.header-content p {
         font-size: 2.4rem;
-    }
-
-    /* header section */
-
-    div.header-logo img {
-        width: 24px;
-        height: 24px;
     }
 
     /* about me section */
