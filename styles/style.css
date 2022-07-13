@@ -146,6 +146,32 @@ nav {
     font-weight: bold;
  }
 
+/* Thesis in About Me */
+.about-thesis {
+    border-color: #0275d8;
+    border-style: solid;
+    padding: 10px;
+ }
+
+ .about-thesis-cert {
+    background-color: #ADD8E6;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+ }
+
+ .about-thesis-cert a {
+    text-decoration: none;
+ }
+
+ .about-thesis-cert h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+ }
+
+ .about-thesis-cert p {
+    font-size: 1.6rem;
+ }
+/* Awards in About Me */
  .about-awards {
     border-color: #0275d8;
     border-style: solid;
@@ -171,6 +197,7 @@ nav {
     font-size: 1.6rem;
  }
 
+/* Certificates in About Me */
  .about-certificates {
     border-color: #0275d8;
     border-style: solid;
@@ -243,12 +270,6 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
-
-    /* nav section */
-    /* div.nav-logo {
-        display: none;
-    } */
-
     div.nav-menu {
         display: block;
     }
@@ -278,6 +299,11 @@ nav {
         grid-column: 1 / span 3;
     }
 
+    /* thesis section */
+    div.about-thesis {
+        grid-column: 1 / span 3;
+    }
+
     /* awards section */
     div.about-awards {
         grid-column: 1 / span 3;
@@ -294,6 +320,16 @@ nav {
     }
 
     div.contact-info {
+        margin-left: 20px;
+    }
+
+    /* copyright */
+    div.copyright {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    div.copyright p {
         margin-left: 20px;
     }
 }
