@@ -78,19 +78,18 @@ nav {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 10%;
 }
 
 .header-content {
     align-items: center;
     display: flex;
     justify-content: center;
-
 }
 
 .header-content h1 {
     font-size: 7.2rem;
     font-weight: 300;
+    margin-top: 20%;
 }
 
 .header-content p {
@@ -226,7 +225,7 @@ nav {
     background-color: #0C2D48;
     display: flex;
     justify-content: center;
-    
+    padding-top: 10%;
 }
 
 .copyright p {
@@ -287,5 +286,14 @@ nav {
     /* certificates section */
     div.about-certificates {
         grid-column: 1 / span 3;
+    }
+
+    /* contact section */
+    div.contact {
+        flex-direction: column;
+    }
+
+    div.contact-info {
+        margin-left: 20px;
     }
 }
