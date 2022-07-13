@@ -202,6 +202,7 @@ nav {
     background-color: #0C2D48;
     display: flex;
     gap: 3rem;
+    width: 100%;
 }
 
 .contact-logo img {
