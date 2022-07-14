@@ -8,14 +8,15 @@
     <link rel="icon" href="images/PONGODEV_LOGO_leaf.png">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="scripts/script.js"></script>
 </head>
 <body>
     <div class="container">
-        <nav>
+        <nav id="nav">
             <div class="nav-logo">
                 <img src="images/PONGODEV_LOGO_150h.png" alt="">
             </div>
-            <div class="nav-link">
+            <div class="nav-link" id="nav-link">
                 <a href="#header">Home</a>
                 <a href="">Projects</a>
                 <a href="#about-me">About Me</a>
@@ -26,7 +27,7 @@
                 </select>
             </div>
             <div class="nav-menu">
-                <img src="https://img.icons8.com/windows/32/000000/menu--v1.png"/>
+                <button type="button" onclick="menu_func()"><img src="https://img.icons8.com/windows/32/000000/menu--v1.png"/></button>
             </div>
         </nav>
         <div class="header" id="header">

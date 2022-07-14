@@ -64,11 +64,17 @@ nav {
     background-color: #fff;
     border: none;
     font-size: 1.4rem;
+    width: 100px;
 }
 
 .nav-menu {
     display: none;
     margin-left: auto
+}
+
+.nav-menu button{
+    background-color: #fff;
+    border: none;
 }
 
 /* Header */
@@ -262,7 +268,7 @@ nav {
 
 /* For smaller screens */
 @media screen and (max-width: 600px) {
-    .nav-link a, select {display: none;}
+    .nav-link {display: none;}
     /* .topnav a.icon {
       float: right;
       display: block;
