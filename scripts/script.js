@@ -2,6 +2,9 @@ function menu_func() {
     const nav = document.getElementById("nav");
     const nav_link = document.getElementById("nav-link");
 
+    // change menu icon from hamburger menu to close
+    document.getElementById("menu-icon").src="https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
+
     // nav section
     nav.style.display = "grid";
     nav.style.gridTemplateColumns = "auto auto";
