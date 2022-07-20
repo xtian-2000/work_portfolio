@@ -266,18 +266,23 @@ nav {
     font-size: 1.6rem;
 }
 
+/* Toggle classes */
+.menu-close-icon {
+    src: "https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
+}
+
+/* .menu_on {
+
+} */
+
 /* For smaller screens */
 @media screen and (max-width: 600px) {
     .nav-link {display: none;}
-    /* .topnav a.icon {
-      float: right;
-      display: block;
-    } */
 }
 
 @media screen and (max-width: 600px) {
     div.nav-menu {
-        display: block;
+        display: flex;
     }
 
     /* header section */
