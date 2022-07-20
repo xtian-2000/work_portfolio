@@ -44,13 +44,13 @@ $(document).ready(function(){
     var toggleStatus = 0;
 
     $('#menu-button').click(function(){
-
+        const menu_icon = document.getElementById("menu-icon")
         if (toggleStatus == 0) {
-            document.getElementById("menu-icon").src="https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
+            menu_icon.src="https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
             $('.nav-logo').hide();
             toggleStatus = 1;
         } else if (toggleStatus == 1) {
-            document.getElementById("menu-icon").src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
+            menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
             $('.nav-logo').show();
             toggleStatus = 0;
         }
