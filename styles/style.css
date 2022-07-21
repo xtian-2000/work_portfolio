@@ -267,80 +267,87 @@ nav {
 }
 
 /* Toggle classes */
-.menu-close-icon {
-    src: "https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
+.nav-link-menu-on {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding: 10px;
 }
-
-/* .menu_on {
-
-} */
 
 /* For smaller screens */
 @media screen and (max-width: 600px) {
-    .nav-link {display: none;}
-}
+    .nav {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 
-@media screen and (max-width: 600px) {
-    div.nav-menu {
+    .nav-link {
+        display: grid;
+        grid-column: 1 / span 2;
+        grid-row: 2;
+        padding: 10px;
+    }
+
+    .nav-menu {
         display: flex;
     }
 
     /* header section */
 
-    div.header-logo img {
+    .header-logo img {
         width: 24px;
         height: 24px;
     }
 
-    div.header-content {
+    .header-content {
         margin-top: 10%;
     }
-    div.header-content h1{
+    .header-content h1{
         font-size: 3.2rem;
     }
 
-    div.header-content p {
+    .header-content p {
         font-size: 2.4rem;
     }
 
     /* about me section */
-    div.about-main {
+    .about-main {
         border-color: #0275d8;
         border-style: solid;
         grid-column: 1 / span 3;
     }
 
     /* thesis section */
-    div.about-thesis {
+    .about-thesis {
         grid-column: 1 / span 3;
     }
 
     /* awards section */
-    div.about-awards {
+    .about-awards {
         grid-column: 1 / span 3;
     }
 
     /* certificates section */
-    div.about-certificates {
+    .about-certificates {
         grid-column: 1 / span 3;
     }
 
     /* contact section */
-    div.contact {
+    .contact {
         flex-direction: column;
     }
 
-    div.contact-info {
+    .contact-info {
         margin-left: 20px;
     }
 
     /* copyright */
-    div.copyright {
+    .copyright {
         align-items: flex-start;
         justify-content: flex-start;
     }
     
-    div.copyright p {
+    .copyright p {
         margin-left: 20px;
     }
 }
