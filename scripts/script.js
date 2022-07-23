@@ -50,20 +50,14 @@ $(document).ready(function(){
             // change menu icon to close
             menu_icon.src="https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
 
-            // show nav-link
-            nav_link.style.display = "grid";
-            nav_link.style.gridColumn = "1 / span 2";
-            nav_link.style.gridRow = "2";
-            nav_link.style.padding = "10px";
-            
-            // $("#nav-link").toggleClass("nav-link-menu-on");
+            $("#nav-link").show();
 
             // change toggle status to 1
             toggleStatus = 1;
-            
+
         } else if (toggleStatus == 1) {
             menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
-            $('.nav-logo').show();
+            $("#nav-link").hide();
             toggleStatus = 0;
         }
       });  
