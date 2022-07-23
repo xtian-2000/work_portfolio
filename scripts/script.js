@@ -50,14 +50,14 @@ $(document).ready(function(){
             // change menu icon to close
             menu_icon.src="https://img.icons8.com/ios/35/000000/delete-sign--v1.png";
 
-            $("#nav-link").show();
+            $("#nav-link").toggle();
 
             // change toggle status to 1
             toggleStatus = 1;
 
         } else if (toggleStatus == 1) {
             menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
-            $("#nav-link").hide();
+            $("#nav-link").toggle();
             toggleStatus = 0;
         }
       });  
