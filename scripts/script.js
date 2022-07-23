@@ -77,4 +77,19 @@ $(document).ready(function(){
             toggleStatus = 0;
         }
       });  
+
+      $('#home-link, #about-link, #contact-link').click(function(){
+
+        // create constants
+        const menu_icon = document.getElementById("menu-icon")
+        
+        // change close icon to menu
+        menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
+            
+        // use toggle to show/hide the div
+        $("#nav-link").hide();
+        
+        // change toggle status to 1
+        toggleStatus = 0;
+      });  
 });
