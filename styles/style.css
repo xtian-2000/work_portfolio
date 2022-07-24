@@ -24,7 +24,7 @@ p {
     font-size: 1.8rem;
 }
 
-/*Navigation*/
+/*Top nav*/
 
 nav {
     align-items: center;
@@ -39,6 +39,7 @@ nav {
 }
 
 .nav-link {
+    align-items: center;
     display: flex;
     gap: 2rem;
 }
@@ -264,6 +265,33 @@ nav {
 .copyright p {
     color: #fff;
     font-size: 1.6rem;
+}
+
+/* Projects page */
+
+/* Top nav */
+#soft-dev-link {
+    border-color: #8b0000;
+    border-style: solid;
+    border-width: thin;
+    color: #8b0000;
+    padding: 5px;
+}
+
+#web-dev-link {
+    border-color: #013220;
+    border-style: solid;
+    border-width: thin;
+    color: #013220;
+    padding: 5px;
+}
+
+#mob-dev-link {
+    border-color: #00008b;
+    border-style: solid;
+    border-width: thin;
+    color: #00008b;
+    padding: 5px;
 }
 
 /* For smaller screens */
