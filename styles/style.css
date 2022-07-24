@@ -294,6 +294,16 @@ nav {
     padding: 5px;
 }
 
+.nav-back {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-back button{
+    background-color: #fff;
+    border: none;
+}
+
 /* For smaller screens */
 @media screen and (max-width: 600px) {
     
@@ -401,4 +411,10 @@ nav {
     .copyright p {
         margin-left: 20px;
     }
+
+    /* Projects page */
+    .nav-back {
+        display: none;
+    }
+
 }

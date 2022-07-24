@@ -38,8 +38,8 @@ $(document).ready(function(){
       });  
 
       $('#home-link, #about-link, #contact-link').click(function(){
-
-        // create constants
+        if (toggleStatus == 1) {
+            // create constants
         const menu_icon = document.getElementById("menu-icon")
         
         // change close icon to menu
@@ -50,5 +50,7 @@ $(document).ready(function(){
         
         // change toggle status to 1
         toggleStatus = 0;
+
+        } 
       });  
 });
