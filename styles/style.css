@@ -131,14 +131,14 @@ nav {
     row-gap: 5px;
 }
 
- .about-header, .web-dev-header{
+ .about-header, .project-header{
     background-color: #0275d8;
     grid-column: 1 / span 3;
  }
 
- .about-header,.web-dev-header h1 {
+ .about-header, .project-header h1 {
     color: #fff;
-    margin-left: 10px;
+    padding-left: 10px; 
  }
 
  .about-main {
@@ -154,79 +154,28 @@ nav {
  }
 
 /* Thesis in About Me */
-.about-thesis {
+.about-content {
     border-color: #0275d8;
     border-style: solid;
     padding: 10px;
  }
 
- .about-thesis-cert {
+ .about-content-cert {
     background-color: #ADD8E6;
     margin: 10px 0 10px 0;
     padding: 10px;
  }
 
- .about-thesis-cert a {
+ .about-content-cert a {
     text-decoration: none;
  }
 
- .about-thesis-cert h4{
+ .about-content-cert h4{
     font-size: 1.8rem;
     font-weight: bold;
  }
 
- .about-thesis-cert p {
-    font-size: 1.6rem;
- }
-/* Awards in About Me */
- .about-awards {
-    border-color: #0275d8;
-    border-style: solid;
-    padding: 10px;
- }
-
- .about-awards-cert {
-    background-color: #ADD8E6;
-    margin: 10px 0 10px 0;
-    padding: 10px;
- }
-
- .about-awards-cert a {
-    text-decoration: none;
- }
-
- .about-awards-cert h4{
-    font-size: 1.8rem;
-    font-weight: bold;
- }
-
- .about-awards-cert p {
-    font-size: 1.6rem;
- }
-
-/* Certificates in About Me */
- .about-certificates {
-    border-color: #0275d8;
-    border-style: solid;
-    padding: 10px;
- }
-
- .about-cert {
-    background-color: #ADD8E6;
-    margin: 10px 0 10px 0;
-    padding: 10px;
- }
-
- .about-cert a {
-    text-decoration: none;
- }
-
- .about-cert h4{
-    font-size: 1.8rem;
-    font-weight: bold;
- }
-
- .about-cert p {
+ .about-content-cert p {
     font-size: 1.6rem;
  }
 
@@ -294,7 +243,7 @@ nav {
     padding: 5px;
 }
 
-/* Web ev section */
+/* Web dev section */
 
 /* For smaller screens */
 @media screen and (max-width: 600px) {
@@ -370,18 +319,8 @@ nav {
         grid-column: 1 / span 3;
     }
 
-    /* thesis section */
-    .about-thesis {
-        grid-column: 1 / span 3;
-    }
-
-    /* awards section */
-    .about-awards {
-        grid-column: 1 / span 3;
-    }
-
-    /* certificates section */
-    .about-certificates {
+    /* about content */
+    .about-content {
         grid-column: 1 / span 3;
     }
 
