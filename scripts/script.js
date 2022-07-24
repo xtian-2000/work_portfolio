@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     var toggleStatus = 0;
 
-    $('#menu-button').click(function(){
+    $('#menu-button, #menu-button-project').click(function(){
 
         // create constants
         const menu_icon = document.getElementById("menu-icon")
