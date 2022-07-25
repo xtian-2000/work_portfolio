@@ -131,12 +131,12 @@ nav {
     row-gap: 5px;
 }
 
- .about-header, .project-header{
+ .about-header {
     background-color: #0275d8;
     grid-column: 1 / span 3;
  }
 
- .about-header, .project-header h1 {
+ .about-header {
     color: #fff;
     padding-left: 10px; 
  }
@@ -217,7 +217,6 @@ nav {
 }
 
 /* Projects page */
-
 /* Top nav */
 #soft-dev-link {
     border-color: #8b0000;
@@ -242,9 +241,42 @@ nav {
     color: #00008b;
     padding: 5px;
 }
+/* Project content section */
+/* Soft dev section */
+.soft-dev-header{
+    background-color: #8b0000;
+    grid-column: 1 / span 3;
+}
 
-/* Web dev section */
+.soft-dev-header h1 {
+    color: #fff;
+    padding-left: 10px; 
+}
 
+.soft-dev-content {
+    border-color: #8b0000;
+    border-style: solid;
+    padding: 10px;
+}
+
+.soft-dev-proj {
+    background-color: #ADD8E6;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+.soft-dev-proj a {
+    text-decoration: none;
+}
+
+ .soft-dev-proj h4{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.soft-dev-proj p {
+    font-size: 1.6rem;
+}
 /* For smaller screens */
 @media screen and (max-width: 600px) {
     
