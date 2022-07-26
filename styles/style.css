@@ -241,42 +241,50 @@ nav {
     color: #00008b;
     padding: 5px;
 }
+
 /* Project content section */
-/* Soft dev section */
-.soft-dev-header{
+.bg-color-red {
     background-color: #8b0000;
+}
+
+.bd-color-red {
+    border-color: #8b0000;
+}
+
+/* Dev section */
+.dev-header{
     grid-column: 1 / span 3;
 }
 
-.soft-dev-header h1 {
+.dev-header h1 {
     color: #fff;
     padding-left: 10px; 
 }
 
-.soft-dev-content {
-    border-color: #8b0000;
+.dev-content {
     border-style: solid;
     padding: 10px;
 }
 
-.soft-dev-proj {
+.dev-proj {
     background-color: #ADD8E6;
     margin: 10px 0 10px 0;
     padding: 10px;
 }
 
-.soft-dev-proj a {
+.dev-proj a {
     text-decoration: none;
 }
 
- .soft-dev-proj h4{
+.dev-proj h4{
     font-size: 1.8rem;
     font-weight: bold;
 }
 
-.soft-dev-proj p {
+.dev-proj p {
     font-size: 1.6rem;
 }
+
 /* For smaller screens */
 @media screen and (max-width: 600px) {
     
