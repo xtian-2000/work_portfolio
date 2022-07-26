@@ -22,6 +22,7 @@ h3 {
 
 h4 {
     font-size: 1.6rem;
+    font-weight: lighter;
 }
 
 p {
@@ -252,6 +253,10 @@ nav {
     grid-template-columns: auto auto;
     margin: 10% 2.5% 5% 2.5%;
     row-gap: 5px;
+}
+
+.grid-container-proj a {
+    font-size: 1.6rem;
 }
 
 /* Project content section */
