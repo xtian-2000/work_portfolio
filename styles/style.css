@@ -247,8 +247,24 @@ nav {
     background-color: #8b0000;
 }
 
+.bg-color-green {
+    background-color: #013220;
+}
+
+.bg-color-blue {
+    background-color: #00008b;
+}
+
 .bd-color-red {
     border-color: #8b0000;
+}
+
+.bd-color-green {
+    border-color: #013220;
+}
+
+.bd-color-blue {
+    border-color: #00008b;
 }
 
 /* Dev section */
