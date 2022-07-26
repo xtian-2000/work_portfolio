@@ -20,6 +20,10 @@ h3 {
     font-size: 2.0rem;
 }
 
+h4 {
+    font-size: 1.6rem;
+}
+
 p {
     font-size: 1.8rem;
 }
@@ -310,13 +314,9 @@ nav {
     font-size: 1.6rem;
 }
 
-.tech-used p {
-    font-size: 1.6rem;
-}
-
 .tech-used-logo {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.0rem;
 }
 /* For smaller screens */
 @media screen and (max-width: 600px) {
