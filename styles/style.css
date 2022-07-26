@@ -314,6 +314,10 @@ nav {
     font-size: 1.6rem;
 }
 
+.tech-used-logo {
+    display: flex;
+    gap: 1.5rem;
+}
 /* For smaller screens */
 @media screen and (max-width: 600px) {
     
