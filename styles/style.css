@@ -33,6 +33,12 @@ p {
     display: none;
 }
 
+.flex-display {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+}
+
 /*Top nav*/
 
 nav {
