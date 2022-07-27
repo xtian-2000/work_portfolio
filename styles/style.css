@@ -262,6 +262,11 @@ nav {
     font-size: 1.6rem;
 }
 
+.anchor-blue {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* Project content section */
 .bg-color-red {
     background-color: #8b0000;
