@@ -53,11 +53,11 @@ $(document).ready(function(){
       $('#hms-toggle-more').click(function(){
         if ($(this).text() == "See more...") {
           // use toggle to show/hide the div
-          $("#hms-more").toggle();   
+          $(this).siblings(".toggle-close").toggle();   
           $(this).text("See less...");
         } else {
           // use toggle to show/hide the div
-          $("#hms-more").toggle();   
+          $(this).siblings(".toggle-close").toggle();  
           $(this).text("See more...");
         }
       });  
