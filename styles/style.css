@@ -29,6 +29,10 @@ p {
     font-size: 1.8rem;
 }
 
+.toggle-close {
+    display: none;
+}
+
 /*Top nav*/
 
 nav {
