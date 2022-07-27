@@ -264,6 +264,7 @@ nav {
 
 .anchor-blue {
     color: blue;
+    cursor: pointer;
     text-decoration: underline;
 }
 
