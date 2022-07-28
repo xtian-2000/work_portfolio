@@ -33,23 +33,24 @@ $(document).ready(function(){
         }
       });  
 
+      // hides 
       $('#home-link, #about-link, #contact-link').click(function(){
         if (toggleStatus == 1) {
-            // create constants
-        const menu_icon = document.getElementById("menu-icon")
-        
-        // change close icon to menu
-        menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
-            
-        // use toggle to show/hide the div
-        $("#nav-link").hide();
-        
-        // change toggle status to 1
-        toggleStatus = 0;
-
+          // create constants
+          const menu_icon = document.getElementById("menu-icon")
+          
+          // change close icon to menu
+          menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
+              
+          // use toggle to show/hide the div
+          $("#nav-link").hide();
+          
+          // change toggle status to 1
+          toggleStatus = 0;
         } 
       });  
       
+      // see more or see less function 
       $('#hms-toggle-more').click(function(){
         if ($(this).text() == "See more...") {
           // use toggle to show/hide the div
