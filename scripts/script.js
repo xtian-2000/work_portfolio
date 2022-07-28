@@ -51,7 +51,7 @@ $(document).ready(function(){
       });  
       
       // see more or see less function 
-      $('#hms-toggle-more').click(function(){
+      $('#hms-toggle-more, #sg-toggle-more, #jbb-toggle-more').click(function(){
         if ($(this).text() == "See more...") {
           // use toggle to show/hide the div
           $(this).siblings(".toggle-close").toggle();   
