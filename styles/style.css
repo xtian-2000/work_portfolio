@@ -29,6 +29,10 @@ p {
     font-size: 1.8rem;
 }
 
+.bg-color-light-yellow {
+    background-color: #fff8d7;
+}
+
 .bg-color-red {
     background-color: #8b0000;
 }
@@ -124,7 +128,6 @@ nav {
 /* Header */
 .header {
     align-items: center;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     width: 100%;
