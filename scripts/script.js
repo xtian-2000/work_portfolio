@@ -1,7 +1,18 @@
 $(document).ready(function(){
+    var delayInMilliseconds = 2000; //1 second
 
+    setTimeout(function() {
+      // create constants
+      const header = document.getElementById("header")
+
+      header.style.visibility = "visible";
+    }, delayInMilliseconds);
+    
+
+    
     var toggleStatus = 0;
 
+    // show or hide nav links when menu button is clicked
     $('#menu-button, #menu-button-project').click(function(){
 
         // create constants
