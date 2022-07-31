@@ -130,6 +130,7 @@ nav {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding: 10% 0 10% 0;
     width: 100%;
 }
 
@@ -142,7 +143,6 @@ nav {
 .header-content h1 {
     font-size: 7.2rem;
     font-weight: 300;
-    margin-top: 20%;
 }
 
 .header-content p {
