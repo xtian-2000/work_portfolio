@@ -344,7 +344,6 @@ nav {
 
 /* For smaller screens */
 @media screen and (max-width: 600px) {
-    
     .nav{
         display: grid;
         grid-template-columns: auto auto;
@@ -386,9 +385,14 @@ nav {
         height: 24px;
     }
 
-    .header-content {
+    /* .header-content {
         margin-top: 10%;
+    } */
+
+    .header {
+        padding: 20% 0 10% 0;
     }
+    
     .header-content h1{
         font-size: 3.2rem;
     }
