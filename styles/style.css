@@ -200,6 +200,7 @@ nav {
     font-weight: bold;
  }
 
+
 /* Thesis in About Me */
 .about-content {
     border-color: #0275d8;
@@ -311,6 +312,7 @@ nav {
 
 .header-project {
     display: flex;
+    justify-content: space-between;
     gap: 2rem;
     padding: 10% 5% 10% 5%;
 }
@@ -455,5 +457,7 @@ nav {
     }
 
     /* Projects page */
-
+    .header-project {
+        padding: 20% 0 10% 0;
+    }
 }
