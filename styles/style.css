@@ -217,6 +217,11 @@ nav {
     width: 250px;
  }
 
+ .profile-contacts {
+    display: flex;
+    gap: 1.0rem;
+ }
+
 /* Thesis in About Me */
 .about-content {
     border-color: #0275d8;
