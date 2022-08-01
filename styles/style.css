@@ -200,6 +200,20 @@ nav {
     font-weight: bold;
  }
 
+ .about-profile {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3.0rem;
+    padding: 5%;
+    width: auto;
+ }
+
+ .profile-avatar img {
+    
+    height: 250px;
+    width: 250px;
+ }
 
 /* Thesis in About Me */
 .about-content {
