@@ -307,7 +307,18 @@ nav {
     text-decoration: underline;
 }
 
+/* Project header section */
 
+.header-project {
+    display: flex;
+    gap: 2rem;
+    padding: 10% 5% 10% 5%;
+}
+
+.header-project img {
+    height: 250px;
+    width: 250px;
+}
 
 /* Project content section */
 /* Dev section */
