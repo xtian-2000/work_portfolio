@@ -37,7 +37,7 @@ $(document).ready(function(){
             menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
             
             // use toggle to show/hide the div
-            $("#nav-link").hide();
+            $("#nav-link").hide("slow");
             
             // change toggle status to 1
             toggleStatus = 0;
@@ -54,7 +54,7 @@ $(document).ready(function(){
           menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
               
           // use toggle to show/hide the div
-          $("#nav-link").hide();
+          $("#nav-link").hide("slow");
           
           // change toggle status to 1
           toggleStatus = 0;
@@ -65,11 +65,11 @@ $(document).ready(function(){
       $('#hms-toggle-more, #sg-toggle-more, #jbb-toggle-more').click(function(){
         if ($(this).text() == "See more...") {
           // use toggle to show/hide the div
-          $(this).siblings(".toggle-close").toggle();   
+          $(this).siblings(".toggle-close").toggle("slow");   
           $(this).text("See less...");
         } else {
           // use toggle to show/hide the div
-          $(this).siblings(".toggle-close").toggle();  
+          $(this).siblings(".toggle-close").toggle("slow");  
           $(this).text("See more...");
         }
       });  
