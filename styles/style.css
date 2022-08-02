@@ -331,12 +331,14 @@ nav {
 
 /* Project content section */
 .proj-content {
+    align-items: center;
     display: flex;
     flex-direction: column;
     padding: 10% 5% 10% 5%;
 }
 
 .proj-content img {
+
     height: auto;
     width: auto;
 }
