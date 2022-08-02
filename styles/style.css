@@ -337,8 +337,8 @@ nav {
 }
 
 .proj-content img {
-    height: 250px;
-    width: 250px;
+    height: auto;
+    width: auto;
 }
 
 .dev-header{
