@@ -329,22 +329,18 @@ nav {
     text-decoration: underline;
 }
 
-/* Project header section */
-
-.header-project {
+/* Project content section */
+.proj-content {
     display: flex;
-    justify-content: space-between;
-    gap: 2rem;
+    flex-direction: column;
     padding: 10% 5% 10% 5%;
 }
 
-.header-project img {
+.proj-content img {
     height: 250px;
     width: 250px;
 }
 
-/* Project content section */
-/* Dev section */
 .dev-header{
     grid-column: 1 / span 2;
 }
