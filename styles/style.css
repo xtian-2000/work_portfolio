@@ -262,12 +262,12 @@ nav {
     margin: 20px 0 0 20px;
 }
 
-.contact-info h4{
+.contact-content h4{
     color: #fff;
     font-size: 1.8rem;
 }
 
-.contact-info p {
+.contact-content p {
     color: #fff;
     font-size: 1.6rem;
 }
@@ -461,7 +461,7 @@ nav {
         flex-direction: column;
     }
 
-    .contact-info {
+    .contact-content {
         margin-left: 20px;
     }
 
