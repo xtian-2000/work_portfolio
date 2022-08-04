@@ -384,6 +384,36 @@ nav {
     font-size: 1.6rem;
 }
 
+/* Carousel */
+.carousel {
+    margin: 10% 0 10% 0;
+}
+
+.carousel-item {
+    color: #fff;
+    height: 32rem;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 50px;
+    right: 0;
+}
+
+.overlay-image {
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 /* For smaller screens */
 @media screen and (max-width: 600px) {
     .nav{
