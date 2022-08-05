@@ -391,16 +391,19 @@ nav {
 
 .carousel-item {
     color: #fff;
-    height: 32rem;
+    height: 50rem;
     position: relative;
 }
 
 .container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding-bottom: 50px;
-    right: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container img {
+    height: 500px;
+    width: 500px;
 }
 
 .overlay-image {
