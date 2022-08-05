@@ -3,9 +3,9 @@ $(document).ready(function(){
 
     setTimeout(function() {
       // create constants
-      const header = document.getElementById("header")
+      const heading = document.getElementById("heading")
 
-      header.style.visibility = "visible";
+      heading.style.visibility = "visible";
     }, delayInMilliseconds);
     
 
@@ -45,7 +45,7 @@ $(document).ready(function(){
       });  
 
       // hides 
-      $('#home-link, #about-link, #contact-link').click(function(){
+      $('#home-link, #project-link, #about-link, #contact-link').click(function(){
         if (toggleStatus == 1) {
           // create constants
           const menu_icon = document.getElementById("menu-icon")
