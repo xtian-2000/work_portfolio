@@ -345,44 +345,6 @@ nav {
     padding: 10% 5% 10% 5%;
 }
 
-.proj-content img {
-    height: auto;
-    width: auto;
-}
-
-.dev-header{
-    grid-column: 1 / span 2;
-}
-
-.dev-header h1 {
-    color: #fff;
-    padding-left: 10px; 
-}
-
-.dev-content {
-    border-style: solid;
-    grid-column: 1 / span 2;
-    padding: 30px 30px 30px 10px;
-}
-
-.dev-proj {
-    background-color: #ADD8E6;
-    margin: 10px 0 10px 0;
-    padding: 10px;
-}
-
-.dev-proj a {
-    text-decoration: none;
-}
-
-.dev-proj h4{
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-
-.dev-proj p {
-    font-size: 1.6rem;
-}
 
 /* Carousel */
 .carousel {
