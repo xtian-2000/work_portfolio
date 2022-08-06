@@ -13,11 +13,11 @@ $(document).ready(function(){
     var toggleStatus = 0;
 
     // show or hide nav links when menu button is clicked
-    $('#menu-button, #menu-button-project').click(function(){
+    $('#menu-button').click(function(){
 
         // create constants
         const menu_icon = document.getElementById("menu-icon")
-        const nav_link = document.getElementById("nav-link");
+        const nav_link = document.getElementById("nav-links");
 
         if (toggleStatus == 0) {
             // change menu icon to close
@@ -37,7 +37,7 @@ $(document).ready(function(){
             menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
             
             // use toggle to show/hide the div
-            $("#nav-link").hide("slow");
+            $("#nav-links").hide("slow");
             
             // change toggle status to 1
             toggleStatus = 0;
@@ -45,7 +45,7 @@ $(document).ready(function(){
       });  
 
       // hides 
-      $('#home-link, #project-link, #about-link, #contact-link').click(function(){
+      $('#home-link, #myCarousel, #about-link, #contact-link').click(function(){
         if (toggleStatus == 1) {
           // create constants
           const menu_icon = document.getElementById("menu-icon")
@@ -54,7 +54,7 @@ $(document).ready(function(){
           menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
               
           // use toggle to show/hide the div
-          $("#nav-link").hide("slow");
+          $("#nav-links").hide("slow");
           
           // change toggle status to 1
           toggleStatus = 0;
