@@ -8,7 +8,11 @@ $(document).ready(function(){
       heading.style.visibility = "visible";
     }, delayInMilliseconds);
     
-
+    // downloads curriculum vitae
+    $("#cv-btn").click(function (e) {
+      e.preventDefault();
+      window.location.href = "resources/CHRISTIAN_GEALONE_Resume.pdf";
+    });
     
     var toggleStatus = 0;
 

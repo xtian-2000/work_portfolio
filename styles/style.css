@@ -34,6 +34,12 @@ p {
     padding: 10px;
 }
 
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
 .toggle-close {
     display: none;
 }
