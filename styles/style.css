@@ -221,48 +221,7 @@ nav {
     font-size: 1.6rem;
  }
 
-/*Footer*/
-.contact {
-    background-color: #0C2D48;
-    display: flex;
-    gap: 3rem;
-    width: 100%;
-}
-
-.contact-logo img {
-    height: 50px;
-    width: 100px;
-    margin: 20px 0 0 20px;
-}
-
-.contact-content {
-    margin-top: 20px;
-}
-
-.contact-content h4{
-    color: #fff;
-    font-size: 1.8rem;
-}
-
-.contact-content p {
-    color: #fff;
-    font-size: 1.6rem;
-}
-
-.copyright {
-    align-items: center;
-    background-color: #0C2D48;
-    display: flex;
-    justify-content: center;
-    padding-top: 10%;
-}
-
-.copyright p {
-    color: #fff;
-    font-size: 1.6rem;
-}
-
-/* Projects page */
+ /* Projects page */
 .grid-container-proj {
     column-gap: 5px;
     display: grid;
@@ -336,6 +295,47 @@ nav {
    
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/*Footer*/
+.contact {
+    background-color: #0C2D48;
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+}
+
+.contact-logo img {
+    height: 50px;
+    width: 100px;
+    margin: 20px 0 0 20px;
+}
+
+.contact-content {
+    margin-top: 20px;
+}
+
+.contact-content h4{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.contact-content p {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.copyright {
+    align-items: center;
+    background-color: #0C2D48;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 1.6rem;
 }
 
 /* For smaller screens */
