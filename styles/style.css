@@ -354,7 +354,7 @@ nav {
 .carousel-item {
     color: #fff;
     height: auto;
-    position: relative;
+    /* position: relative; */
 }
 
 .container {
