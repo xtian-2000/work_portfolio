@@ -134,6 +134,7 @@ nav {
     align-items: center;
     display: flex;
     flex-direction: column;
+    gap: 5.0rem;
     padding: 20% 0 10% 0;
     visibility: hidden;
     width: 100%;
