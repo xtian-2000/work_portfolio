@@ -248,7 +248,6 @@ nav {
     padding: 10% 5% 10% 5%;
 }
 
-
 /* Carousel */
 .carousel {
     margin: 10% 0 10% 0;
@@ -420,6 +419,11 @@ nav {
     /* Carousel */
     .container {
         padding: 10% 0 10% 0;
+    }
+
+    .container img {
+        height: 250px;
+        width: 250px;
     }
 
     /* contact section */
