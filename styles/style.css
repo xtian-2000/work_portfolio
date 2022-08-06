@@ -174,7 +174,7 @@ nav {
 
 /* About Me */
 
-.grid-container {
+.about-container {
     column-gap: 5px;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -189,7 +189,7 @@ nav {
 
  .about-header {
     color: #fff;
-    padding-left: 10px; 
+    padding: 10px; 
  }
 
  .about-main {
