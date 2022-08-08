@@ -94,13 +94,10 @@ nav {
     width: 100px;
 }
 
-.nav-menu {
-    margin-left: auto
-}
-
 .nav-menu button{
     background-color: #fff;
     border: none;
+    margin-left: auto
 }
 
 /* Header */
