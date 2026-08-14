@@ -355,9 +355,11 @@ nav {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    color: inherit;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    text-decoration: none;
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -393,8 +395,10 @@ nav {
     margin: 0;
 }
 
-.project-card-body .btn {
-    align-self: flex-start;
+.project-card-body .card-cta {
+    color: #0275d8;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 /* Gallery page */
