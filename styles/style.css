@@ -363,14 +363,15 @@ nav {
 .project-grid {
     display: grid;
     gap: 2.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 380px));
     margin-bottom: 1rem;
 }
 
 .project-card {
-    border: 1px solid #ddd;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     color: inherit;
     display: flex;
     flex-direction: column;
