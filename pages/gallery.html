@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Project Screenshots | PONGODEV</title>
+    <link rel="icon" href="../images/PONGODEV_LOGO_leaf.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <nav class="nav nav-gallery">
+            <div class="nav-logo">
+                <a href="../index.html"><img src="../images/PONGODEV_LOGO_150h.png" alt="pongodev logo"></a>
+            </div>
+            <div class="back-link">
+                <a href="../index.html#projects">&larr; Back to Projects</a>
+            </div>
+        </nav>
+        <div class="gallery-header">
+            <h1 id="gallery-title"></h1>
+            <p id="gallery-desc"></p>
+            <div class="tag-row" id="gallery-tags"></div>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+
+    <script>
+        const PROJECTS = {
+            "rampiere-n8n": {
+                title: "Rampiere n8n Automation",
+                description: "AI assistant on Mattermost using Claude API & LLM intent routing for business workflows.",
+                tags: ["n8n", "Claude API", "Mattermost"],
+                folder: "../images/projects/rampiere-n8n",
+                count: 2
+            },
+            "mh-erp": {
+                title: "M&H Food Corporation - iDempiere ERP",
+                description: "ERP plugin development, server upgrades (v11 → v13), and Jasper reporting across production environments.",
+                tags: ["iDempiere", "Jaspersoft", "Server Admin"],
+                folder: "../images/projects/mh-erp",
+                count: 3
+            }
+        };
+
+        const params = new URLSearchParams(window.location.search);
+        const projectId = params.get("project");
+        const project = PROJECTS[projectId];
+        const grid = document.getElementById("gallery-grid");
+
+        if (project) {
+            document.getElementById("page-title").textContent = project.title + " | PONGODEV";
+            document.getElementById("gallery-title").textContent = project.title;
+            document.getElementById("gallery-desc").textContent = project.description;
+
+            const tagRow = document.getElementById("gallery-tags");
+            project.tags.forEach(tag => {
+                const span = document.createElement("span");
+                span.className = "tag";
+                span.textContent = tag;
+                tagRow.appendChild(span);
+            });
+
+            for (let i = 1; i <= project.count; i++) {
+                const num = String(i).padStart(2, "0");
+                const src = `${project.folder}/${num}.png`;
+
+                const link = document.createElement("a");
+                link.href = src;
+                link.target = "_blank";
+
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = `${project.title} screenshot ${num}`;
+                img.loading = "lazy";
+
+                link.appendChild(img);
+                grid.appendChild(link);
+            }
+        } else {
+            document.getElementById("gallery-title").textContent = "Project not found";
+            document.getElementById("gallery-desc").textContent = "This project's screenshots aren't available yet.";
+        }
+    </script>
+</body>
+</html>
