@@ -29,6 +29,34 @@
 
     <script>
         const PROJECTS = {
+            "mh-erp": {
+                title: "M&H Food Corporation - iDempiere ERP",
+                description: "ERP plugin development, server upgrades (v11 → v13), and Jasper reporting across production environments.",
+                tags: ["iDempiere", "Jaspersoft", "Server Admin"],
+                folder: "../images/projects/mh-erp",
+                count: 4
+            },
+            "ferrandino": {
+                title: "Ferrandino - iDempiere ERP Implementation",
+                description: "New iDempiere ERP rollout for an Italian cheese manufacturer — raw materials imported, manufacturing and production tracked locally in the Philippines.",
+                tags: ["iDempiere", "ERP Implementation", "Manufacturing"],
+                folder: "../images/projects/ferrandino",
+                count: 2
+            },
+            "paypiere": {
+                title: "Paypiere - Payroll Software",
+                description: "Backend development for multi-company payroll processing with flexible timesheet workflows.",
+                tags: ["Backend", "PostgreSQL"],
+                folder: "../images/projects/paypiere",
+                count: 3
+            },
+            "pocket-erp": {
+                title: "Pocket ERP",
+                description: "Chat-based assistant that simplifies common ERP operations, letting users complete routine tasks without navigating the full iDempiere UI.",
+                tags: ["n8n", "Chatbot", "iDempiere"],
+                folder: "../images/projects/pocket-erp",
+                count: 12
+            },
             "rampiere-n8n": {
                 title: "Rampiere n8n Automation",
                 description: "AI assistant on Mattermost using Claude API & LLM intent routing for business workflows.",
@@ -36,12 +64,20 @@
                 folder: "../images/projects/rampiere-n8n",
                 count: 2
             },
-            "mh-erp": {
-                title: "M&H Food Corporation - iDempiere ERP",
-                description: "ERP plugin development, server upgrades (v11 → v13), and Jasper reporting across production environments.",
-                tags: ["iDempiere", "Jaspersoft", "Server Admin"],
-                folder: "../images/projects/mh-erp",
+            "mh-assistant": {
+                title: "M&H Food Corporation - MH Assistant",
+                description: "Telegram bot connected to live iDempiere ERP with branch-level access control and attendance reporting.",
+                tags: ["Telegram Bot", "iDempiere", "PostgreSQL"],
+                folder: "../images/projects/mh-assistant",
                 count: 3
+            },
+            "heujier": {
+                title: "Heujier Sales Script Mobile App",
+                description: "Native Android app solving real workflow problem: script lookup and clipboard copying for mobile sales.",
+                tags: ["Android", "Kotlin"],
+                folder: "../images/projects/heujier",
+                count: 3,
+                ext: "jpg"
             }
         };
 
@@ -63,9 +99,10 @@
                 tagRow.appendChild(span);
             });
 
+            const ext = project.ext || "png";
             for (let i = 1; i <= project.count; i++) {
                 const num = String(i).padStart(2, "0");
-                const src = `${project.folder}/${num}.png`;
+                const src = `${project.folder}/${num}.${ext}`;
 
                 const link = document.createElement("a");
                 link.href = src;
