@@ -30,7 +30,7 @@ $(document).ready(function(){
 
         if (toggleStatus == 0) {
             // change menu icon to close
-            menu_icon.src="https://img.icons8.com/ios/35/000000/delete-sign--v1.png";    
+            menu_icon.src="images/icons/close.png";
 
             nav_link.style.display = "grid";
             nav_link.style.gridColumn = "1 / span 2";
@@ -43,7 +43,7 @@ $(document).ready(function(){
 
         } else if (toggleStatus == 1) {
             // change close icon to menu
-            menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
+            menu_icon.src="images/icons/menu.png";
             
             // use toggle to show/hide the div
             $("#nav-links").hide("slow");
@@ -60,7 +60,7 @@ $(document).ready(function(){
           const menu_icon = document.getElementById("menu-icon")
           
           // change close icon to menu
-          menu_icon.src="https://img.icons8.com/ios-glyphs/35/000000/menu--v1.png";
+          menu_icon.src="images/icons/menu.png";
               
           // use toggle to show/hide the div
           $("#nav-links").hide("slow");
