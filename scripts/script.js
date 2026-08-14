@@ -11,7 +11,12 @@ $(document).ready(function(){
     // downloads curriculum vitae
     $("#cv-btn").click(function (e) {
       e.preventDefault();
-      window.location.href = "resources/CHRISTIAN_GEALONE_Resume.pdf";
+      const link = document.createElement("a");
+      link.href = "resources/CHRISTIAN_GEALONE_Resume.pdf";
+      link.download = "CHRISTIAN_GEALONE_Resume.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
     });
     
     var toggleStatus = 0;
