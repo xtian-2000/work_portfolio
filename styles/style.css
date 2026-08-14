@@ -345,10 +345,26 @@ nav {
     text-align: center;
 }
 
+.project-category {
+    border-left: 4px solid #0275d8;
+    color: #0275d8;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin: 4rem 0 2rem 0;
+    padding-left: 1rem;
+    text-transform: uppercase;
+}
+
+.project-category:first-of-type {
+    margin-top: 0;
+}
+
 .project-grid {
     display: grid;
     gap: 2.5rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 1rem;
 }
 
 .project-card {
