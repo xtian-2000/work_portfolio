@@ -23,6 +23,7 @@
             <h1 id="gallery-title"></h1>
             <p id="gallery-desc"></p>
             <div class="tag-row" id="gallery-tags"></div>
+            <div id="gallery-demo"></div>
         </div>
         <div class="gallery-grid" id="gallery-grid"></div>
     </div>
@@ -78,6 +79,14 @@
                 folder: "../images/projects/heujier",
                 count: 3,
                 ext: "jpg"
+            },
+            "gym-crm": {
+                title: "Gym CRM by Airtable",
+                description: "Gym management system built on Airtable — lead pipeline, member and plan tracking, payments, daily check-in/out logging, and automations that convert leads to members and process payments.",
+                tags: ["Airtable", "Automations", "CRM"],
+                folder: "../images/projects/gym-crm",
+                count: 7,
+                demoUrl: "https://www.loom.com/share/744c07ad849845038846397650318892"
             }
         };
 
@@ -98,6 +107,28 @@
                 span.textContent = tag;
                 tagRow.appendChild(span);
             });
+
+            if (project.demoUrl) {
+                const demoContainer = document.getElementById("gallery-demo");
+                const loomId = project.demoUrl.split("/share/")[1];
+
+                const wrapper = document.createElement("div");
+                wrapper.className = "demo-embed-wrapper";
+
+                const iframe = document.createElement("iframe");
+                iframe.src = `https://www.loom.com/embed/${loomId}`;
+                iframe.allow = "fullscreen";
+                iframe.allowFullscreen = true;
+                wrapper.appendChild(iframe);
+                demoContainer.appendChild(wrapper);
+
+                const openLink = document.createElement("a");
+                openLink.href = project.demoUrl;
+                openLink.target = "_blank";
+                openLink.className = "demo-open-link";
+                openLink.textContent = "Open in Loom ↗";
+                demoContainer.appendChild(openLink);
+            }
 
             const ext = project.ext || "png";
             for (let i = 1; i <= project.count; i++) {
