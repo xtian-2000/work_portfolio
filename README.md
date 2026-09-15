@@ -40,6 +40,9 @@ Backend development for multi-company payroll processing with flexible timesheet
 ### Food Manufacturing and Franchising Company - iDempiere ERP
 ERP system administration, plugin development, and Jasper Report templates
 
+### iDempiere-FrePPLe Production Sync
+n8n workflow syncing production data between iDempiere ERP and FrePPLe for automated production planning
+
 ### Heujier Sales Script Mobile App
 Native Android app solving workflow problems for mobile sales operations
 
