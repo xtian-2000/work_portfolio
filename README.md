@@ -31,13 +31,13 @@ Welcome to my professional portfolio website! I'm **Christian Gealone**, an **AI
 ### Rampiere n8n Automation
 AI assistant on Mattermost using Claude API & LLM intent routing for business workflows
 
-### M&H Food Corporation - MH Assistant
+### Food Manufacturing and Franchising Company - MH Assistant
 Telegram bot connected to live iDempiere ERP with branch-level access control
 
 ### Paypiere - Payroll Software
 Backend development for multi-company payroll processing with flexible timesheet workflows
 
-### M&H Food Corporation - iDempiere ERP
+### Food Manufacturing and Franchising Company - iDempiere ERP
 ERP system administration, plugin development, and Jasper Report templates
 
 ### Heujier Sales Script Mobile App
