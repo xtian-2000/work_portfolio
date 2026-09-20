@@ -41,15 +41,15 @@ p {
 }
 
 .btn-gold {
-    background-color: #D4AF37;
-    border-color: #D4AF37;
+    background-color: #FFC72C;
+    border-color: #FFC72C;
     color: #1a1a1a;
     font-weight: bold;
 }
 
 .btn-gold:hover {
-    background-color: #b8952c;
-    border-color: #b8952c;
+    background-color: #FFB800;
+    border-color: #FFB800;
     color: #1a1a1a;
 }
 
